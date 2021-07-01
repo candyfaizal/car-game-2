@@ -16,7 +16,8 @@ class Game
     
     start()
     {
-        
+        player.getcount();
+        form.display();
                
 
     }
