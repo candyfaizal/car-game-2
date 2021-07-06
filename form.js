@@ -33,6 +33,7 @@ class Form
     {
         this.input.hide();
         this.button.hide();
+        this.greeting.hide();
     }
 
     

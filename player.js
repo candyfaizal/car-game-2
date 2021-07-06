@@ -9,7 +9,7 @@ class Player
 
     getcount()
     {
-        database.ref('playerCount').on("value",function(data){count:data.val()})
+        database.ref('playerCount').on("value",function(data){count=data.val()})
     }
 
     updatecount()
